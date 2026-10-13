@@ -1,0 +1,331 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Threads::Threads::@13c6ebe2c8011b876f32",
+					"jsonFile" : "target-Threads__Threads-Debug-72739b25ed5b79cdd699.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glm-header-only::@fd9a7823937da46381f5",
+					"jsonFile" : "target-glm-header-only-Debug-f75fecdd3f41c9ac0dc3.json",
+					"name" : "glm-header-only",
+					"projectIndex" : 2
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-0ed3a50c56e69a8324fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "extern",
+					"childIndexes" : 
+					[
+						3,
+						6,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern-Debug-eb44abd068b2d822e13a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "extern/glfw",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.glfw-Debug-dfb3af1309f1c3c2bd61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "extern/glfw",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "extern/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.glfw.src-Debug-26c7e86595e36ccc879d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "extern/glfw/src",
+					"targetIndexes" : 
+					[
+						2,
+						6
+					]
+				},
+				{
+					"build" : "extern/glfw/docs",
+					"jsonFile" : "directory-extern.glfw.docs-Debug-a15c924d48dea8cb0d03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "extern/glfw/docs"
+				},
+				{
+					"build" : "extern/glm",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-extern.glm-Debug-7608851af4915a6d59f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/glm"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "extern/glm/glm",
+					"jsonFile" : "directory-extern.glm.glm-Debug-e5b50089ba8cea167079.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 2,
+					"source" : "extern/glm/glm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "extern/glad",
+					"jsonFile" : "directory-extern.glad-Debug-0d6b68287a5dddf38528.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "extern/glad",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/tinyobjloader",
+					"jsonFile" : "directory-extern.tinyobjloader-Debug-6e350eccd14eaa23633a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "extern/tinyobjloader",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						9
+					],
+					"name" : "ICG_2026_HW1",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ICG_2026_HW1::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ICG_2026_HW1-Debug-de1ef15c74479f517108.json",
+					"name" : "ICG_2026_HW1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "glad::@6d81f930c6bec73dde7b",
+					"jsonFile" : "target-glad-Debug-1333c9c4a83a357e1824.json",
+					"name" : "glad",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@81d610105217ee077306",
+					"jsonFile" : "target-glfw-Debug-5937dfd5635daa3add85.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glm::@fd9a7823937da46381f5",
+					"jsonFile" : "target-glm-Debug-e9605728d13618cbb7f5.json",
+					"name" : "glm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "tinyobjloader::@22fa7a90b6df3fa2547f",
+					"jsonFile" : "target-tinyobjloader-Debug-d4459c9532223e0657de.json",
+					"name" : "tinyobjloader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@13c6ebe2c8011b876f32",
+					"jsonFile" : "target-uninstall-Debug-c792ba682bdaaf07e90d.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "update_mappings::@81d610105217ee077306",
+					"jsonFile" : "target-update_mappings-Debug-e9a63c4d80d80f654622.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Code/ICG/HW1/build",
+		"source" : "C:/Code/ICG/HW1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}

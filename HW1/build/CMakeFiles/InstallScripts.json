@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Code/ICG/HW1/build/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/src/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/glfw/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/glfw/src/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/glfw/docs/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/glm/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/glm/glm/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/glad/cmake_install.cmake",
+		"C:/Code/ICG/HW1/build/extern/tinyobjloader/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
